@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 import pickle
 
 #upload dataset
-url = 'https://raw.githubusercontent.com/samkrall/model/main/data/data_file'
+url = 'https://raw.githubusercontent.com/samkrall/ML-webapp/master/Data/data_file'
 df = pd.read_csv(url, index_col = 0)
 
 #build model
